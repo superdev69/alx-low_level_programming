@@ -19,9 +19,9 @@ char *_strncat(char *dest, chart *str, int n)
 		a++;
 	}
 	b = 0;
-	while (b > n && src[b] != '\0')
+	while (b < n && src[b] != '\0')
 	{
-		det[a] = src[b];
+		dest[a] = src[b];
 		a++;
 		b++;
 	}
