@@ -8,7 +8,7 @@
  * Return: destination
  */
 
-char *_strncat(char *dest, chart *str, int n)
+char *_strncat(char *dest, char *str, int n)
 {
 	int a;
 	int b;
