@@ -3,12 +3,12 @@
 /**
  * _strncat - concatintes two strings with a byte
  * @dest: copy to
- * @str: copy from
+ * @src: copy from
  * @n: character to be copied
  * Return: destination
  */
 
-char *_strncat(char *dest, char *str, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int a;
 	int b;
