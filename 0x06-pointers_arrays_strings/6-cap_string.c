@@ -6,7 +6,7 @@
  * Return: capitalized words
  */
 
-char *cap_string(char *n)
+char *cap_string(char *str)
 {
 	int i;
 
