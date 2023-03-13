@@ -7,14 +7,13 @@
  * Return: 0
  */
 
-int help(int a, int n)
+int help(int n, int a)
 {
 	if  (a * a == n)
 		return (a);
 	else if (a * a < n)
-		return (help(++a, n));
-	else
-		return (-1);
+		return (help(n, ++a));
+	return (-1);
 }
 
 /**
