@@ -2,7 +2,7 @@
 
 /**
  * help - helps to return natural s.r
- * @n: number to find the square root 
+ * @n: number to find the square root
  * @a: square root
  * Return: 0
  */
